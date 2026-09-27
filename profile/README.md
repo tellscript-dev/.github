@@ -14,12 +14,10 @@ next, better edition.
 
 ### Start here
 
-| | |
-|---|---|
-| **Try it** | [Quickstart](https://tellscript.com/docs/quickstart): one prompt, one feature, one afternoon |
-| **Teach your agent** | `npx skills add tellscript-dev/tellscript` |
-| **Read the format** | [Spec, draft 0.1](https://github.com/tellscript-dev/tellscript/blob/main/spec/draft.md) · [Docs](https://tellscript.com/docs) |
-| **See a real one** | [Castwell](https://github.com/tellscript-dev/tellscript/tree/main/examples/castwell), a small shop in four files |
+- **Try it:** the [quickstart](https://tellscript.com/docs/quickstart), one prompt, one feature, one afternoon
+- **Teach your agent:** `npx skills add tellscript-dev/tellscript`
+- **Read the format:** the [spec, draft 0.1](https://github.com/tellscript-dev/tellscript/blob/main/spec/draft.md) and the [docs](https://tellscript.com/docs)
+- **See a real one:** [Castwell](https://github.com/tellscript-dev/tellscript/tree/main/examples/castwell), a small shop in four files
 
 ### Get involved
 
