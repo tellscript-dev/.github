@@ -1,0 +1,35 @@
+name: Agent support
+description: An agent misreads, ignores or breaks a Tellscript.
+labels: ["agents"]
+body:
+  - type: dropdown
+    id: agent
+    attributes:
+      label: Agent
+      options: [Claude Code, Codex, Cursor, Gemini CLI, GitHub Copilot, OpenCode, Other]
+    validations:
+      required: true
+  - type: input
+    id: model
+    attributes:
+      label: Model and version
+      placeholder: For example the model name and the agent version
+  - type: dropdown
+    id: setup
+    attributes:
+      label: How the agent learned the format
+      options: [Skill (npx skills add), Claude Code plugin, Prompt from tellscript.com, AGENTS.md section only, Nothing]
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What did you ask, what did the agent do, and what should it have done?
+    validations:
+      required: true
+  - type: textarea
+    id: files
+    attributes:
+      label: Tellscript lines involved
+      render: markdown

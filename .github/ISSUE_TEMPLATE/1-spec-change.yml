@@ -1,0 +1,33 @@
+name: Spec change
+description: Propose a change to the Tellscript format.
+title: "spec: "
+labels: ["spec"]
+body:
+  - type: markdown
+    attributes:
+      value: Changes to the format start here, before any pull request. A real example helps more than anything else.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What could you not express, or what did an agent or a reader misunderstand?
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: Example
+      description: The Tellscript lines where it happened, shortened to the point.
+      render: markdown
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed wording
+      description: How the spec should read, or what the file should look like instead.
+  - type: textarea
+    id: impact
+    attributes:
+      label: What it breaks
+      description: Would existing files, the schema or the checker need to change?

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Question or idea
+    url: https://github.com/tellscript-dev/tellscript/discussions
+    about: Ask how to write something, or show what you built.
+  - name: Security problem
+    url: https://github.com/tellscript-dev/.github/blob/main/SECURITY.md
+    about: Report privately, not in a public issue.
